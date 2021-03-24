@@ -1,0 +1,10 @@
+[Unit]
+Description=Mon
+
+[Service]
+WorkingDirectory=/usr/local/bin/mon/
+ExecStart=/usr/local/bin/mon/mon.sh
+
+[Install]
+WantedBy=multi-user.target
+
