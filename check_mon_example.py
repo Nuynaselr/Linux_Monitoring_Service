@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import time
 
-SERVICE_NAME = 'mon'
-EMAIL = 'mon.service.tk@gmail.com'
-PASSWORD = 'A55d53j2y4ol32e'
+SERVICE_NAME = 'name'
+EMAIL = 'email'
+PASSWORD = 'password'
 HOST = 'smtp.gmail.com'
 PORT = 587 #gmail port 
 WARNING = '!WARNING!'
